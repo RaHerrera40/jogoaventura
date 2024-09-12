@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Tesouro secreto</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="celeiro-abandonado.jpg" alt="">
+            <p>Ao mexer em umas coisas antigas de uma casa comprada recentemente, Murilo e Gustavo encontraram um caderno estranho. Nesse caderno havia muita coisa escrita, alguns mapas, anotações sobre caminhos por florestas, visitas a museus, nomes de pessoas. Murilo decidiu que ia pesquisar sobre o que encontrou. Nas pesquisas, um dos mapas mostrava a cidade de Nova Odessa e um museu de Americana. Gustavo sugeriu de seguir as pistas!</p>
+        <button class="btn-proximo" data-proximo="1"> Nova Odessa </button>
+        <button class="btn-proximo" data-proximo="1"> Americana </button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Murilo encontrou que no bairro de chácaras havia uma casa muito antiga. Nessa casa havia um celeiro, igual um dos desenhos do caderno. Porém, nessa chácara havia alguns obstáculos para entrar: um cão de guarda. Gustavo teve a ideia de distrair o cão para o Murilo entrar escondido.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no celeiro</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+                <p>No celeiro, encontrou uma caixa antiga com algumas coisas escritas que não dava para ler devido a sujeira. Por onde você começa?</p>
+                <button class="btn-proximo" data-proximo="5">Levar a caixa e investigar</button>
+                <button class="btn-proximo" data-proximo="6">Explorar mais o celeiro</button>
+            </div>
+        </main>
+        <script src="script.js"></script>
+</body>
+</html>
